@@ -97,7 +97,7 @@ add_tinyusb(${TINYUSB_TARGET})
 
 # Check if tinyusb_config target is defined
 if (NOT TARGET ${TINYUSB_CONFIG_TARGET})
-  message(FATAL_ERROR "${TINYUSB_CONFIG_TARGET} target is not defined")
+  #message(FATAL_ERROR "${TINYUSB_CONFIG_TARGET} target is not defined")
 endif()
 
 # Link with tinyusb_config target
