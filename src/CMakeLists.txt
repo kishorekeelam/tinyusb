@@ -1,7 +1,7 @@
 # TODO more docs and example on how to use this file
 # Usage: requires target tinyusb_config which expose tusb_config.h file
 # TINYUSB_TARGET_PREFIX and TINYUSB_TARGET_SUFFIX can be used to change the name of the target
-
+project(ProjectName)
 cmake_minimum_required(VERSION 3.17)
 
 # Add tinyusb to a target, if user don't want to compile tinyusb as a library
